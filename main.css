@@ -123,7 +123,7 @@ section {
   }
   #one {
     flex-direction: column;
-    padding-top: 50%;
+    padding-top: 40%;
   }
   #one .left {
     padding-left: 1rem;
@@ -133,6 +133,6 @@ section {
     font-size: 15px;
   }
   #one .right img {
-    height: 300px;
+    height: 400px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1F1C32;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  padding: 1rem 9rem;
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(11.8px);
+}
+nav h2 {
+  color: white;
+}
+nav .navbar-links ul {
+  display: flex;
+}
+nav .navbar-links li a {
+  padding: 1rem;
+  display: block;
+  color: white;
+}
+nav .menu {
+  position: absolute;
+  flex-direction: column;
+  top: 1rem;
+  right: 1rem;
+  display: none;
+}
+nav .menu .bars {
+  padding: 3px 15px;
+  margin: 3px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+section {
+  height: 100vh;
+}
+
+#one {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#one .left {
+  padding-left: 9rem;
+  font-size: 28px;
+  font-weight: bolder;
+}
+#one .left h1:nth-child(1) {
+  color: #00D1FF;
+}
+#one .left h1:nth-child(2) {
+  color: white;
+}
+#one .left h1:nth-child(3) {
+  color: red;
+}
+#one .left p {
+  color: white;
+  font-weight: normal;
+  font-size: 20px;
+  padding: 1rem 0;
+}
+#one .right {
+  padding-top: 5rem;
+}
+#one .right img {
+  height: 700px;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  nav .menu {
+    display: flex;
+  }
+  nav h2 {
+    z-index: 1;
+  }
+  nav .navbar-links {
+    width: 100%;
+    height: 100vh;
+    display: none;
+  }
+  nav .navbar-links ul {
+    flex-direction: column;
+    padding-top: 6rem;
+  }
+  nav .navbar-links li a {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  nav .navbar-links.active {
+    display: flex;
+  }
+  #one {
+    flex-direction: column;
+    padding-top: 50%;
+  }
+  #one .left {
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+  #one .left p {
+    font-size: 15px;
+  }
+  #one .right img {
+    height: 300px;
+  }
+}/*# sourceMappingURL=main.css.map */

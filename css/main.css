@@ -104,12 +104,15 @@ section {
 
 #three {
   color: white;
+}
+#three h1 {
   padding: 6rem 9rem;
 }
 #three .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   animation: fadeIn 2s forwards;
+  padding: 0 6rem;
 }
 #three .grid-container a {
   text-decoration: none;
@@ -242,12 +245,13 @@ section {
   #one .right img {
     height: 320px;
   }
-  #three {
+  #three h1 {
+    font-size: 20px;
     padding: 0 1rem;
   }
   #three .grid-container {
-    margin: 1rem 0;
     grid-template-columns: repeat(1, 1fr);
+    padding: 0;
   }
   #three .grid-container .box {
     margin: 5rem 0;

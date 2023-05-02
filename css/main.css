@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +34,8 @@ nav {
   z-index: 1;
 }
 nav h2 {
-  color: white;
+  color: pink;
+  font-family: "Nanum Pen Script", sans-serif;
 }
 nav .navbar-links ul {
   display: flex;
@@ -100,6 +102,10 @@ section {
   animation: float 6s ease-in-out infinite;
 }
 
+#three {
+  color: white;
+  padding: 6rem 9rem;
+}
 #three .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -149,14 +155,15 @@ section {
 #three .grid-container .box .info h2 {
   text-align: left;
   margin: 1rem 0;
+  font-weight: 400;
 }
 #three .grid-container .box .info .tools-used {
   display: flex;
 }
 #three .grid-container .box .info .tools-used .box-tools {
   padding: 0.5rem 2rem;
-  background-color: white;
-  color: black;
+  border: solid #00D1FF 3px;
+  color: white;
   margin: 1rem 0.5rem 1rem 0;
   border-radius: 30px;
 }

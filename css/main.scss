@@ -246,6 +246,7 @@ section {
     }
 
 #three {
+    padding: 0;
     .grid-container {
         margin: 1rem 0;
         grid-template-columns: repeat(1, 1fr);

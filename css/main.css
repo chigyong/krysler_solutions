@@ -242,6 +242,9 @@ section {
   #one .right img {
     height: 320px;
   }
+  #three {
+    padding: 0;
+  }
   #three .grid-container {
     margin: 1rem 0;
     grid-template-columns: repeat(1, 1fr);

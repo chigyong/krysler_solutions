@@ -30,6 +30,7 @@ nav {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(11.8px);
+  z-index: 1;
 }
 nav h2 {
   color: white;
@@ -97,6 +98,74 @@ section {
 #one .right img {
   height: 700px;
   animation: float 6s ease-in-out infinite;
+}
+
+#three .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  animation: fadeIn 2s forwards;
+}
+#three .grid-container a {
+  text-decoration: none;
+  color: white;
+}
+#three .grid-container a h4 {
+  border: solid red 3px;
+  margin: 1rem 0;
+  padding: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 15px;
+  background-color: black;
+}
+#three .grid-container h4:hover {
+  background-color: white;
+  color: red;
+  transition: 0.5s ease;
+}
+#three .grid-container .live {
+  background-color: white;
+  color: red;
+}
+#three .grid-container .live:hover {
+  background-color: black;
+}
+#three .grid-container img {
+  height: 60%;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+}
+#three .grid-container .box {
+  margin: 1rem;
+  padding: 2rem;
+}
+#three .grid-container .box .info {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+}
+#three .grid-container .box .info h2 {
+  text-align: left;
+  margin: 1rem 0;
+}
+#three .grid-container .box .info .tools-used {
+  display: flex;
+}
+#three .grid-container .box .info .tools-used .box-tools {
+  padding: 0.5rem 2rem;
+  background-color: white;
+  color: black;
+  margin: 1rem 0.5rem 1rem 0;
+  border-radius: 30px;
+}
+#three .grid-container .box .box-links {
+  display: flex;
+  justify-content: flex-start;
+}
+#three .grid-container .box .box-links a {
+  padding: 0 0.5rem;
 }
 
 @media only screen and (max-width: 768px) {

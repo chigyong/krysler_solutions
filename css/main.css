@@ -243,7 +243,7 @@ section {
     height: 320px;
   }
   #three {
-    padding: 0;
+    padding: 0 1rem;
   }
   #three .grid-container {
     margin: 1rem 0;

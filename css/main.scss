@@ -239,6 +239,28 @@ section {
         }
     }
     }
+
+#three {
+    .grid-container {
+        margin: 1rem 0;
+        grid-template-columns: repeat(1, 1fr);
+   .box {
+    margin: 5rem 0;
+    .info {
+    .tools-used {
+    .box-tools {
+        padding: .5rem .5rem;
+        margin: 1rem 1rem 1rem 0;
+    }
+    }
+    }
+   }
+    img {
+        height: 50%;
+        width: 100%;
+    }
+    }
+}
 }
 @keyframes fadeIn {
     from {

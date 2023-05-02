@@ -6,4 +6,7 @@ menu.addEventListener('click', () => {
     navbar.classList.toggle('active')
 })
 
-//Write a responsive navbar
+//Scrolling Effect
+AOS.init({
+    duration: 2000,
+ });

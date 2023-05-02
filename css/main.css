@@ -235,6 +235,21 @@ section {
   #one .right img {
     height: 320px;
   }
+  #three .grid-container {
+    margin: 1rem 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #three .grid-container .box {
+    margin: 5rem 0;
+  }
+  #three .grid-container .box .info .tools-used .box-tools {
+    padding: 0.5rem 0.5rem;
+    margin: 1rem 1rem 1rem 0;
+  }
+  #three .grid-container img {
+    height: 50%;
+    width: 100%;
+  }
 }
 @keyframes fadeIn {
   from {

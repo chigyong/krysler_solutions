@@ -6,4 +6,4 @@ menu.addEventListener('click', () => {
     navbar.classList.toggle('active')
 })
 
-
+//Write a responsive navbar
